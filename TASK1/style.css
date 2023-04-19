@@ -1,0 +1,392 @@
+/* Reset Styles */
+/* Reset styles */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+  }
+  
+  /* Font styles */
+  body {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #333;
+  }
+  
+  /* Header styles */
+  header .logo {
+	font-size: 2em;
+	font-weight: bold;
+	margin: 0 0 10px 0;
+	text-transform: uppercase;
+  }
+  
+  header nav {
+	float: right;
+  }
+  
+  header nav ul {
+	list-style: none;
+  }
+  
+  header nav ul li {
+	display: inline-block;
+	margin-left: 20px;
+  }
+  
+  header nav ul li a {
+	color: #333;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 1.2em;
+	padding: 5px 10px;
+	border-radius: 5px;
+  }
+  
+  header nav ul li a:hover {
+	background-color: #333;
+	color: #fff;
+  }
+  
+  /* Hero section styles */
+  .hero {
+	background-image: url('Images/hero.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 600px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color: #fff;
+  }
+  
+  .hero h1 {
+	font-size: 4em;
+	margin-bottom: 20px;
+	text-shadow: 2px 2px rgba(0,0,0,0.5);
+  }
+  
+  .hero p {
+	font-size: 1.5em;
+	margin-bottom: 40px;
+	text-shadow: 2px 2px rgba(0,0,0,0.5);
+  }
+  
+  /* Features section styles */
+  .features {
+	margin-top: 50px;
+	display: flex;
+	justify-content: space-between;
+  }
+  
+  .features-box {
+	width: 30%;
+	text-align: center;
+	background-color: #fff;
+	padding: 30px;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+	transition: transform 0.2s ease-in-out;
+  }
+  
+  .features-box:hover {
+	transform: translateY(-10px);
+  }
+  
+  .features-box h3 {
+	font-size: 1.8em;
+	margin-bottom: 10px;
+  }
+  
+  .features-box p {
+	font-size: 1.1em;
+	line-height: 1.5;
+  }
+  
+  .features-box img {
+	width: 100%;
+	margin-bottom: 20px;
+  }
+  
+  .features-box:nth-child(2) {
+	margin: 0 30px;
+  }
+  
+  /* Destinations section styles */
+  .destinations {
+	margin-top: 50px;
+	text-align: center;
+  }
+  
+  .destinations h2 {
+	font-size: 3em;
+	margin-bottom: 30px;
+  }
+  
+  .destinations p {
+	font-size: 1.5em;
+	margin-bottom: 40px;
+  }
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+ul {
+	list-style: none;
+}
+
+/* Header Styles */
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px;
+	background-color:#00bcd4;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	position: sticky;
+	top: 0;
+	z-index: 100;
+}
+
+.logo a {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+nav ul {
+	display: flex;
+	align-items: center;
+}
+
+  .container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 20px;
+  }
+  
+
+  
+  header .logo {
+	font-size: 2em;
+	font-weight: bold;
+	color: #333;
+	margin-top: 20px;
+  }
+  
+  header nav {
+	float: right;
+	margin-top: 30px;
+  }
+  
+  header nav ul {
+	list-style: none;
+  }
+  
+  header nav ul li {
+	display: inline-block;
+	margin-left: 20px;
+  }
+  
+  header nav ul li a {
+	color: #333;
+	text-decoration: none;
+	font-size: 1.1em;
+	transition: color 0.2s ease-in-out;
+  }
+  
+  header nav ul li a:hover {
+	color: #00bcd4;
+  }
+  
+  /* Banner styles */
+  .banner {
+	background-image: url('images/banner.jpg');
+	height: 600px;
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  }
+  
+  .banner h1 {
+	font-size: 4em;
+	color: #fff;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+	text-align: center;
+  }
+  
+  .banner p {
+	font-size: 1.5em;
+	color: #fff;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+	text-align: center;
+	margin-top: 20px;
+  }
+  
+  /* Features section styles */
+  .features {
+	margin-top: 50px;
+	display: flex;
+	justify-content: space-between;
+  }
+  
+  .features-box {
+	width: 30%;
+	background-color: #fff;
+	padding: 30px;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .features-box img {
+	width: 100%;
+	margin-bottom: 20px;
+  }
+  
+  .features-box h2 {
+	font-size: 1.8em;
+	margin-bottom: 10px;
+  }
+  
+  .features-box p {
+	font-size: 1.1em;
+	line-height: 1.5;
+  }
+  
+  /* Call-to-action section styles */
+  .cta {
+	background-color: #00bcd4;
+	color: #fff;
+	text-align: center;
+	padding: 80px 0;
+  }
+  
+  .cta h2 {
+	font-size: 3em;
+	margin-bottom: 30px;
+  }
+  
+  .cta p {
+	font-size: 1.5em;
+	margin-bottom: 40px;
+  }
+  
+  .cta button {
+	background-color: #fff;
+	color: #00bcd4;
+	font-size: 1.2em;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background-color 0.2s ease-in-out;
+  }
+  
+  /* Destinations section styles */
+.destinations {
+	margin-top: 50px;
+	text-align: center;
+  }
+  
+  .destinations h2 {
+	font-size: 3em;
+	margin-bottom: 30px;
+  }
+  
+  .destinations p {
+	font-size: 1.5em;
+	margin-bottom: 40px;
+  }
+  
+  .destinations .destination-box {
+	width: 30%;
+	display: inline-block;
+	margin-right: 5%;
+	background-color: #fff;
+	padding: 30px;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+	transition: transform 0.2s ease-in-out;
+  }
+  
+  .destinations .destination-box:last-child {
+	margin-right: 0;
+  }
+  
+  .destinations .destination-box:hover {
+	transform: translateY(-10px);
+  }
+  
+  .destinations .destination-box img {
+	width: 100%;
+	margin-bottom: 20px;
+  }
+  
+  .destinations .destination-box h3 {
+	font-size: 1.8em;
+	margin-bottom: 10px;
+  }
+  
+  .destinations .destination-box p {
+	font-size: 1.1em;
+	line-height: 1.5;
+  }
+  
+  /* Footer styles */
+  footer {
+	background-color: #333;
+	color: #fff;
+	padding: 30px 0;
+	text-align: center;
+  }
+  
+  footer p {
+	font-size: 1.1em;
+	margin-bottom: 10px;
+  }
+  
+  footer a {
+	color: #fff;
+	text-decoration: none;
+  }
+  
+  @media screen and (max-width: 767px) {
+	/* Header styles for mobile */
+	header .logo {
+	  margin: 0;
+	  text-align: center;
+	}
+	
+	header nav {
+	  float: none;
+	  margin-top: 20px;
+	  text-align: center;
+	}
+	
+	header nav ul li {
+	  display: block;
+	  margin: 0 0 10px 0;
+	}
+	
+	/* Features section styles for mobile */
+	.features {
+	  flex-direction: column;
+	  align-items: center;
+	}
+	
+	.features-box {
+	  width: 100%;
+	  margin-bottom: 30px;
+	}
+	
+	/* Destinations section styles for mobile */
+	.destinations .destination-box {
+	  width: 100%;
+	  margin-right: 0;
+	  margin-bottom: 30px;
+	}
+  }
+  
