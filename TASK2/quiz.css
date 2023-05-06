@@ -1,0 +1,41 @@
+#quiz-container {
+	margin: auto;
+	text-align: center;
+	width: 50%;
+}
+
+h1 {
+	font-size: 48px;
+}
+
+#question {
+	font-size: 24px;
+}
+
+#choices li {
+	display: inline-block;
+	margin: 10px;
+}
+
+button {
+	background-color: #4CAF50;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 25px;
+}
+
+button:hover {
+	background-color: #3e8e41;
+}
+
+#score {
+	font-size: 24px;
+	font-weight: bold;
+}
